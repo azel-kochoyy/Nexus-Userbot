@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```𝘊𝘰𝘯𝘨𝘳𝘢𝘵𝘴𝘴... ⚡𝘎𝘦𝘦𝘻 𝘜𝘚𝘌𝘙𝘉𝘖𝘛⚡ Has Been Active!!```")
+    await bot.send_message(BOTLOG_CHATID, "```🥵𝘕𝘌𝘟𝘜𝘚 𝘜𝘚𝘌𝘙𝘉𝘖𝘛🥵 𝘋𝘈𝘏 𝘈𝘒𝘛𝘐𝘍 𝘕𝘎𝘌𝘕𝘛𝘖𝘛!!```")
     return
 
 with bot:
@@ -428,7 +428,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⚡𝗚𝗲𝗲𝘇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Buat Userbot Mu Sendiri [Tekan Disini](https://vckyou.github.io/Geez-UserBot)")
+                await event.reply("🥵𝙉𝙀𝙓𝙐𝙎 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🥵, Buat Userbot Mu Sendiri [Tekan Disini](https://vckyou.github.io/Geez-UserBot)")
             else:
                 await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
 
@@ -444,7 +444,7 @@ with bot:
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
                     "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
-                        "** ╡⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞ **",
+                        "** ╡⚡🥵𝙉𝙀𝙓𝙐𝙎 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🥵╞ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -452,14 +452,14 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ╡⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞ ",
+                    "Bantuan Dari ╡🥵𝙉𝙀𝙓𝙐𝙎 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🥵╞ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╡⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞ ",
-                    text="""**Anda Bisa Membuat ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
+                    " ╡🥵𝙉𝙀𝙓𝙐𝙎 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🥵╞ ",
+                    text="""**Anda Bisa Membuat 🥵𝙉𝙀𝙓𝙐𝙎 𝙐𝙎𝙀𝙍𝘽𝙊𝙏🥵 Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
